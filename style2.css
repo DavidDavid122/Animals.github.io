@@ -1,0 +1,66 @@
+body {
+    background-color:black;
+    color: white;
+    width: 98%;
+    background-image:url('p121.png');   
+}
+.Hello {
+    color: lime;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+.A {
+    color: blue;
+    font-family: "Meaning", sans-serif;
+   
+}
+.H {
+    color:blue;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding:0;
+    overflow:hidden;
+    background-color: #333;
+  }
+  li {
+    float:left;
+  }
+  li a, .comp {
+    display: inline-block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+  }
+  li a:hover, .XX:hover .comp {
+    background-color: red;
+  }
+  li.XX{
+    display:inline-block;
+  }
+  .XX-content {
+    display:none;
+    position:absolute;
+    background-color:#f9f9f9;
+    min-width:160px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+  }
+  .XX-content a {
+    color:black;
+    padding:12px 16px;
+    text-decoration:none;
+    display:block;
+    text-align:left;
+  }
+  .XX-content a:hover {background-color:#f1f1f1;}
+  .XX:hover .XX-content {
+    display:block;
+  }
+
